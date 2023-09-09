@@ -65,7 +65,8 @@ ls
 
 Flash image , cần xóa hết dữ liệu ở thẻ nhớ trước 
 ```
-dd if=core-image-minimal-beaglebone-yocto.wic of=/dev/sdb bs=4M
+sudo dd if=core-image-minimal-beaglebone-yocto.wic of=/dev/sdb bs=4M
+sync
 ```
 Đăng nhập root
 
