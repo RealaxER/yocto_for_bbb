@@ -55,6 +55,7 @@ meta-ide-support : cung cấp hỗ trợ cho các IDE như Eclipse
 ```
 bitbake core-image-minimal
 ```
+Nên sử dụng ethernet và 1.1.1.1 để build sẽ nhanh hơn
 
 ### Flash the image to BBB
 Các image tool sẽ được sinh ra ở tmp/deploy/images/beaglebone-yocto
