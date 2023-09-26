@@ -22,6 +22,7 @@ Sau đó khi biên dịch sẽ biên dịch ở thư mục hiện tại luôn.
 
 Ở đây chọn bbb/build là nơi để build và chứa source.
 ```
+mkdir -p bbb/build
 source poky-kirkstone/oe-init-build-env ./bbb/build
 ```
 
